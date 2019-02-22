@@ -1,0 +1,283 @@
+/*顶部部分开始*/
+body{
+    width: 7.5rem;
+    background: #eeeeee;
+    margin: 0 auto;
+}
+.header{
+     width: 7.5rem;
+     height: 1.35rem;
+     background-color: #7cf037;
+ }
+.title{
+    width: 7.5rem;
+    height: 0.37rem;
+    padding-top: 0.6rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.38rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+}
+.back{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    margin-left: 0.32rem;
+    float: left;
+    background-color: #ffffff;
+    position: relative;
+}
+.back>i{
+    font-size: 0.22rem;
+    color: #7cf037;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.05rem;
+    font-weight: bold;
+}
+.more{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    margin-right: 0.32rem;
+    float: right;
+    background-color: #ffffff;
+    position: relative;
+}
+.more>i{
+    font-size: 0.24rem;
+    color: #7cf037;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.06rem;
+    font-weight: bold;
+}
+/*顶部部分结束*/
+/*订单部分开始*/
+.orderBox{
+    width: 7.5rem;
+    height: 3.3rem;
+    background: #fff;
+    padding-top: 0.4rem;
+}
+.order{
+    width: 7.02rem;
+    height: 1.52rem;
+    border-radius: 0.24rem;
+    box-shadow: 0px 5px 15px 0px
+    rgba(124, 240, 55, 0.54);
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+.order>img{
+    width: 1.3rem;
+    height: 1.3rem;
+    padding-top: 0.11rem;
+    padding-left: 0.14rem;
+}
+.order-title{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.28rem;
+    color: #000000;
+    opacity: 0.8;
+    position: absolute;
+    top: 0.26rem;
+    left: 1.76rem;
+}
+.order-price{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.28rem;
+    letter-spacing: -1px;
+    color: #7cf037;
+    position: absolute;
+    top: 0.91rem;
+    left: 1.76rem;
+}
+.order-maijia{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.8;
+    position: absolute;
+    top: 0.65rem;
+    right: 1.55rem;
+}
+.order-paisong{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.8;
+    position: absolute;
+    top: 1.01rem;
+    right: 0.95rem;
+}
+.navBox{
+    width: 5.12rem;
+    height: 0.57rem;
+    margin: 0.6rem auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.nav{
+    width: 2.16rem;
+    height: 0.57rem;
+    background: #ff296f;
+    border-radius: 0.31rem;
+}
+.nav>p{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.28rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+.nav.active{
+    background: #7cf037;
+}
+/*订单部分结束*/
+/*商家配送部分开始*/
+.shangjiapeisong{
+    width: 7.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.shangjiapeisong>img{
+    width: 3.4rem;
+    height: 0.5rem;
+    margin: 0 auto;
+}
+#recommend{
+    width: 7.5rem;
+    height: 9rem;
+    margin: 0 auto;
+}
+.recommend-item {
+    width: 7.02rem;
+    height: 2rem;
+    border-radius: 0.11rem;
+    background: #fff;
+    margin: 0.2rem auto  ;
+    display: flex;
+}
+.recommend-image{
+    width: 2.4rem;
+    height: 1.8rem;
+    background: pink;
+    margin-top: 0.1rem;
+    margin-right: 0.12rem;
+}
+.recommend-image>img{
+    width: 2.4rem;
+    height: 1.8rem;
+}
+.recommend-text{
+    width: 4.5rem;
+    height: 1.8rem;
+    margin-top: 0.1rem;
+    position: relative;
+}
+.shopcart{
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    background-color: #f12961;
+    position: absolute;
+    top: 0.83rem;
+    right: 0.17rem;
+}
+.shopcart i.gouwuche{
+    width: 0.31rem;
+    height: 0.29rem;
+    color: #ffffff;
+    position: absolute;
+    top: 0.12rem;
+    right: 0.14rem;
+}
+.text-title{
+    height: 0.27rem;
+    width: 4.5rem;
+    font-size: 0.28rem;
+    float: left;
+}
+.comment{
+    width: 1.3rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.12rem;
+    right: 0.17rem;
+}
+.comment img{
+    font-size: 0.23rem;
+    width: 0.23rem;
+    height: 0.23rem;
+    float: left;
+    margin-right: 0.02rem;
+}
+.intro1 {
+    width: 4.5rem;
+    height: 0.22rem;
+    font-size: 0.22rem;
+    color: #7dc23b;
+    position: absolute;
+    top: 0.43rem;
+}
+.intro2 {
+    width: 4.5rem;
+    height: 0.22rem;
+    font-size: 0.20rem;
+    color: #000000;;
+    position: absolute;
+    top: 0.8rem;
+}
+.recommend-text>span{
+    width: 1px;
+    height: 16px;
+    background-color: #a0a0a0;
+}
+.intro3{
+    width: 3rem;
+    height: 0.24rem;
+    position: absolute;
+    top: 1.16rem;
+    display: flex;
+    justify-content: space-between;
+}
+.intro3 i.clock{
+    font-size: 0.22rem;
+}
+.intro3 i.address{
+    font-size: 0.22rem;
+}
+.intro3 p{
+    font-size: 0.18rem;
+}
+.discount{
+    width: 3.5rem;
+    height: 0.26rem;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+.discount-left{
+    width: 0.56rem;
+    height: 0.26rem;
+    background-color: #f77fa0;
+    opacity: 0.6;
+    font-size: 0.24rem;
+    color: #f12961;
+    line-height: 0.26rem;
+    text-align: center;
+    margin-right: 0.1rem;
+}
+.discount>p{
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.6;
+}
+/*商家配送部分结束*/

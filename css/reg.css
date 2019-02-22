@@ -1,0 +1,172 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background: url("../images/bgimg.png") no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+}
+.login{
+    width: 1.59rem;;
+    height: 0.59rem;
+    border-radius: 0.65rem;
+    position: absolute;
+    top: 0.58rem;
+    right: 0.24rem;
+    background-color: #7cf037;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.59rem;
+}
+.login3{
+    width: 4.48rem;
+    height: 4.12rem;
+    background-color: #ffffff;
+    border-radius: 0.08rem;
+    opacity: 0.42;
+    position: absolute;
+    top: 4.52rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.login2{
+    width: 5.05rem;
+    height: 3.95rem;
+    background-color: #ffffff;
+    border-radius:0.09rem;
+    opacity: 0.38;
+    position: absolute;
+    top: 4.52rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.login1{
+    width: 5.54rem;
+    height: 3.76rem;
+    background-color: #ffffff;
+    border-radius: 0.10rem;
+    position: absolute;
+    top: 4.52rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.infoBox{
+    width: 3.9rem;
+    height: 0.5rem;
+    margin-top: 0.38rem;
+    margin-left: 0.82rem;
+}
+.infoImage {
+    width: 0.52rem;
+    height: 0.52rem;
+    border-radius: 50%;
+    background-color: #7cf037;
+    float: left;
+    line-height: 0.52rem;
+    text-align: center;
+}
+.infoImage>i {
+    font-size: 0.4rem;
+    color: #ffffff;
+}
+.infoText{
+    width: 3.12rem;
+    height: 0.50rem;
+    border-radius: 0.31rem;
+    border: solid 0.02rem #7cf037;
+    box-sizing: border-box;
+    margin-left: 0.78rem;
+    line-height: 0.5rem;
+}
+.infoText1{
+    width: 3.12rem;
+    height: 0.50rem;
+    border-radius: 0.31rem;
+    border: solid 0.02rem #7cf037;
+    box-sizing: border-box;
+    margin-left: 0.78rem;
+    line-height: 0.5rem;
+}
+.infoText2{
+    width: 3.12rem;
+    height: 0.50rem;
+    border-radius: 0.31rem;
+    border: solid 0.02rem #7cf037;
+    box-sizing: border-box;
+    margin-left: 0.78rem;
+    line-height: 0.5rem;
+}
+.infoText>img{
+    width: 0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+}
+.infoText1>img{
+    width: 0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    top: 1.4rem;
+    right: 1rem;
+}
+.infoText2>img{
+    width: 0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    top: 2.28rem;
+    right: 1rem;
+}
+.number{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.20rem;
+    color: #000000;
+    margin-left: 0.45rem;
+}
+.pass{
+    font-size: 0.7rem;
+    position: absolute;
+    left: 2.1rem;
+    top:1.04rem;
+}
+.pass1{
+    font-size: 0.7rem;
+    position: absolute;
+    left: 2.1rem;
+    top:1.9rem;
+}
+.infoDot{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    color: #7cf037;
+    margin-left: 0.21rem;
+    margin-top: 0.23rem;
+    float: left;
+}
+.tishi{
+    line-height: 0.5rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.20rem;
+    color: #000000;
+    opacity: 0.2;
+    margin-left: 0.28rem;
+}
+.reg{
+    width: 1.82rem;
+    height: 0.48rem;
+    background-color: #7cf037;
+    border-radius: 0.31rem;
+    margin-left: 1.86rem;
+    margin-top: 0.42rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    color: #fafafa;
+    line-height: 0.48rem;
+    text-align: center;
+}

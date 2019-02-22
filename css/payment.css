@@ -1,0 +1,574 @@
+/*确认订单开始*/
+/*顶部部分开始*/
+body{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: #eeeeee;
+    margin: 0 auto;
+    position: fixed;
+}
+.header{
+    width: 7.5rem;
+    height: 2.72rem;
+    background-color: #7cf037;
+    margin: 0 auto;
+}
+.title{
+    width: 7.5rem;
+    height: 0.37rem;
+    padding-top: 0.6rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.38rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-align: center;
+}
+.back{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    margin-left: 0.32rem;
+    float: left;
+    background-color: #ffffff;
+    position: relative;
+}
+.back>i{
+    font-size: 0.22rem;
+    color: #7cf037;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.05rem;
+    font-weight: bold;
+}
+.more{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    margin-right: 0.32rem;
+    float: right;
+    background-color: #ffffff;
+    position: relative;
+}
+.more>i{
+    font-size: 0.24rem;
+    color: #7cf037;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.06rem;
+    font-weight: bold;
+}
+.one{
+    width: 1.9rem;
+    height: 0.2rem;
+    margin-top: 0.4rem;
+    margin-left: 0.45rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.20rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+}
+.two{
+    /*width: 4.8rem;*/
+    height: 0.26rem;
+    margin-top: 0.1rem;
+    margin-left: 0.5rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.26rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+    display: flex;
+}
+.two>i{
+    font-family: SanFranciscoDisplay-Medium;
+    font-size: 0.22rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+    padding-top: 0.04rem;
+}
+.three{
+    /*width: 4rem;*/
+    height: 0.26rem;
+    margin-top: 0.1rem;
+    margin-left: 0.5rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.26rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+    float: left;
+}
+/*顶部部分结束*/
+.content{
+    width: 7.5rem;
+    height: 10.62rem;
+    margin: 0 auto;
+}
+.rule{
+    width: 2rem;
+    height: 0.22rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.22rem;
+    letter-spacing: -1px;
+    color: #7cf037;
+    margin-left: 0.24rem;
+    margin-top: 0.08rem;
+}
+.rule>i{
+    font-size: 0.22rem;
+    color: #85f04a;
+}
+.yuyue{
+    width: 7.02rem;
+    height: 1.36rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    margin: 0.16rem auto;
+}
+.time{
+    width: 6.52rem;
+    height: 0.68rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.22rem;
+    letter-spacing: -1px;
+    color: #7cf037;
+    margin: 0 auto;
+    padding-top: 0.21rem;
+    box-sizing: border-box;
+    border-bottom: 1px dotted rgba(0,0,0,0.15);
+}
+.time>p{
+    float: right;
+}
+.time>p>i{
+    width: 0.22rem;
+    height: 0.12rem;
+    font-size: 0.16rem;
+    color: #7cf037;
+}
+.pay{
+    width:6.52rem;
+    height: 0.68rem;
+    font-family: SimSun;
+    font-size: 0.22rem;
+    letter-spacing: -1px;
+    color: #7cf037;
+    margin: 0 auto;
+    padding-top: 0.21rem;
+    box-sizing: border-box;
+}
+.pay>p{
+    float: right;
+}
+.pay>p>i{
+    width: 0.22rem;
+    height: 0.12rem;
+    font-size: 0.16rem;
+    color: #7cf037;
+}
+/*确认订单开始*/
+.confire{
+    width: 3.42rem;
+    height: 0.23rem;
+    /*margin-top: 0.4rem;
+    margin-left: 2.12rem;
+    margin-bottom: 0.1rem;*/
+    margin: 0.4rem auto 0.1rem;
+    font-family: SimSun;
+    font-weight: bold;
+    font-size: 0.24rem;
+    letter-spacing: 0.2rem;
+    color: #87f14b;
+}
+.confire2{
+    width: 4.5rem;
+    height: 0.23rem;
+    font-family: SimSun;
+    font-weight: bold;
+    font-size: 0.26rem;
+    letter-spacing: 2px;
+    color: #87f14b;
+    padding-left: 1rem;
+    /*margin-left: 2.04rem;*/
+    margin: 0 auto;
+}
+/*确认订单结束*/
+.kong{
+    width: 7.5rem;
+    height: 0.3rem;
+}
+.item{
+    width: 7.02rem;
+    height: 1.45rem;
+    background: #fff;
+    border-radius: 0.21rem;
+    /*margin-left: 0.24rem;*/
+    /*margin-bottom: 0.2rem;*/
+    margin: 0.24rem auto;
+    position: relative;
+}
+.itemImage{
+    width: 1.64rem;
+    height: 1.28rem;
+    border-radius: 0.21rem;
+    position: relative;
+}
+.itemImage>img{
+    width: 1.64rem;
+    height: 1.28rem;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.08rem;
+}
+.itemText{
+    width: 5.14rem;
+    height: 1.28rem;
+    float: right;
+    margin-top: 0.08rem;
+    position: absolute;
+    top: 0rem;
+    left: 1.88rem;
+}
+.jia{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 50%;
+    background-color: #6fe728;
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.18rem;
+}
+.jia>i{
+    position: absolute;
+    right: 0.06rem;
+    bottom: 0.04rem;
+    font-size: 0.22rem;
+    color: #fff;
+}
+.jian{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 50%;
+    background-color: #6fe728;
+    position: absolute;
+    right: 1.2rem;
+    bottom: 0.18rem;
+}
+.jian>p{
+    margin-left: 0.2rem;
+    font-size: 0.22rem;
+    color: #6fe728;
+    position: absolute;
+    left: 0.32rem;
+    bottom: 0.02rem;
+}
+.jian>i{
+    position: absolute;
+    right: 0.06rem;
+    bottom: 0.04rem;
+    font-size: 0.22rem;
+    color: #fff;
+}
+.Text-title{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.work{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0.42rem;
+    letter-spacing: 2px;
+}
+.price{
+    font-family: SimSun;
+    font-size: 0.22rem;
+    color: #ff0000;
+    position: absolute;
+    top: 0.72rem;
+}
+.price2{
+    font-family: SimSun;
+    font-size: 0.18rem;
+    color: #ff0000;
+}
+.discount1{
+    height: 0.26rem;
+    position: absolute;
+    top: 1rem;
+    display: flex;
+}
+.discount1-left{
+    width: 0.56rem;
+    height: 0.26rem;
+    border: solid 1px #ff6992;
+    opacity: 0.7;
+    box-sizing: border-box;
+    font-family: SanFranciscoDisplay-Regular;
+    font-size: 0.14rem;
+    color: #ff296f;
+    opacity: 0.7;
+    margin-right: 0.1rem;
+}
+.discount1>p{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    color: #ff296f;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+.heji{
+    width: 7.02rem;
+    height: 0.84rem;
+    /*margin-top: 0.24rem;*/
+    /*margin-left: 0.24rem;*/
+    margin: 0.24rem auto;
+    border-radius: 0.11rem;
+    background: #fff;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    letter-spacing: 3px;
+    color: #000000;
+    padding-top: 0.24rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+}
+.heji>p{
+    float: right;
+    margin-right: 0.3rem;
+    font-family: SanFranciscoDisplay-Regular;
+    font-size: 0.26rem;
+    letter-spacing: 0px;
+    color: #f43674;
+}
+.hongbao{
+    width: 7.02rem;
+    height: 0.45rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    letter-spacing: -1px;
+    color: #ff296f;
+    padding-top: 0.11rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    margin: 0.24rem auto;
+}
+.hongbao>p{
+    float: right;/*
+    margin-right: 0.3rem;*/
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    letter-spacing: 0px;
+    color: #ff296f;
+}
+.beizhu{
+    width: 7.02rem;
+    height: 0.84rem;
+    /*margin-left: 0.24rem;*/
+    margin: 0.24rem auto;
+    border-radius: 0.11rem;
+    background: #fff;
+    font-family: PingFang-SC-Regular;
+    padding-top: 0.24rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    letter-spacing: 3px;
+    color: #000000;
+}
+.beizhu>i{
+    float: right;
+    margin-right: 0.2rem;
+    margin-top: 0.1rem;
+    font-size:0.2rem;
+}
+.canju{
+    width: 7.02rem;
+    height: 0.84rem;
+    /*margin-top: 0.24rem;*/
+    /*margin-left: 0.24rem;*/
+    margin: 0.24rem auto;
+    border-radius: 0.11rem;
+    background: #fff;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    letter-spacing: 3px;
+    color: #000000;
+    padding-top: 0.24rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+}
+.canju>p{
+    float: right;
+    margin-right: 0.3rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    letter-spacing: 0px;
+    color: #6fe728;
+}
+.zhifu{
+    width: 2.88rem;
+    height: 0.5rem;
+    border-radius: 0.31rem;
+    margin: 0.24rem auto;
+    background-color: #6fe728;
+    position: relative;
+}
+.dot1{
+    width: 0.09rem;
+    height: 0.09rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.6rem;
+}
+.dot2{
+    width: 0.09rem;
+    height: 0.09rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.76rem;
+}
+.zhifu>p{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.26rem;
+    letter-spacing: 0px;
+    color: #fefefe;
+    text-align: center;
+    padding-top: 0.08rem;
+}
+.dot4{
+    width: 0.09rem;
+    height: 0.09rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.6rem;
+}
+.dot3{
+    width: 0.09rem;
+    height: 0.09rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.76rem;
+}
+/*确认订单结束*/
+.zhegai{
+    width: 7.50rem;
+    height: 13.34rem;
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.payBox{
+    width: 7.50rem;
+    height: 7.24rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    /*top: 6.1rem;*/
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.titleBox{
+    width: 6.74rem;
+    height: 0.3rem;
+    margin-top: 0.6rem;
+    margin-left: 0.37rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.30rem;
+    letter-spacing: 0px;
+    color: #63c22b;
+    text-align: center;
+}
+.titleBox>i{
+    font-size: 0.3rem;
+    color: #63c22b;
+    float: left;
+}
+.yue{
+    width: 6.74rem;
+    height: 0.23rem;
+    margin-top: 0.46rem;
+    margin-left: 0.37rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    letter-spacing: 0px;
+    color: #000000;
+    box-sizing: border-box;
+    padding-left: 2.3rem;
+}
+.yue>p{
+    font-weight: bold;
+    font-size: 0.24rem;
+    letter-spacing: 0px;
+    color: #000000;
+    float: right;
+    padding-right: 2rem;
+}
+.Alipay{
+    width: 6.76rem;
+    height: 0.84rem;
+    margin-top: 0.4rem;
+    margin-left: 0.37rem;
+    border-bottom: 2px solid #eeeeee;
+}
+.Alipay>img{
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-left: 2.7rem;
+    margin-top: 0.32rem;
+    float: left;
+}
+.Alipay>p{
+    font-size: 0.20rem;
+    color: #000000;
+    padding-top: 0.31rem;
+    padding-left: 3.1rem;
+}
+.weixin{
+    width: 6.76rem;
+    height: 0.84rem;
+    margin-left: 0.37rem;
+    border-bottom: 2px solid #eeeeee;
+    position: relative;
+}
+.weixin>img{
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-left: 2.7rem;
+    margin-top: 0.32rem;
+    float: left;
+}
+.weixin>p{
+    font-size: 0.20rem;
+    color: #000000;
+    padding-top: 0.31rem;
+    padding-left: 3.1rem;
+}
+.xuanzhong{
+    width: 0.05rem;
+    height: 0.74rem;
+    border-radius: 50%;
+    background-color: #00ff00;
+    position: absolute;
+    top: 0.05rem;
+    right: 0.05rem;
+}
+

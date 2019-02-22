@@ -1,0 +1,427 @@
+body{
+    width: 100%;
+    height: 13.34rem;
+    position: relative;
+}
+.header{
+    width: 7.5rem;
+    height: 1.96rem;
+    background-color: #7cf037;
+    margin: 0 auto;
+ }
+.title{
+    width: 100%;
+    height: 0.37rem;
+    padding-top: 0.5rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.38rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+.back{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    margin-left: 0.32rem;
+    float: left;
+    background-color: #ffffff;
+    position: relative;
+}
+.back>i{
+    font-size: 0.22rem;
+    color: #7cf037;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.05rem;
+    font-weight: bold;
+}
+.search{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    float: right;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0.88rem;
+    top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search>i{
+    font-size: 0.24rem;
+    color: #7cf037;
+    font-weight: bold;
+}
+.more{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    margin-right: 0.32rem;
+    float: right;
+    background-color: #ffffff;
+    position: relative;
+}
+.more>i{
+    font-size: 0.24rem;
+    color: #7cf037;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.06rem;
+    font-weight: bold;
+}
+.infoBox{
+    width: 7.02rem;
+    height: 1.76rem;
+    background-color: #ffffff;
+    margin:  0.35rem auto;
+    border-radius: 0.21rem;
+    box-shadow: 0px 5px 15px 0px
+    rgba(124, 240, 55, 0.51);
+    position: relative;
+}
+.headImage{
+    width: 1.28rem;
+    height: 1.28rem;
+    background-color: #fff;
+    float: left;
+    position: absolute;
+    left: 0.26rem;
+    top: 0.24rem;
+}
+.headImage>img{
+    width: 1.28rem;
+    height: 1.28rem;
+}
+.info{
+    width: 5.30rem;
+    height: 1.21rem;
+    float: right;
+    margin-top: 0.24rem;
+    position: relative;
+}
+.info-title{
+    height: 0.27rem;
+    width: 5.3rem;
+    font-size: 0.28rem;
+    float: left;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #010101;
+    opacity: 0.6;
+}
+.comment{
+    width: 1.3rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.04rem;
+    left: 1.2rem;
+}
+.comment img{
+    font-size: 0.23rem;
+    width: 0.23rem;
+    height: 0.23rem;
+    float: left;
+    margin-right: 0.02rem;
+}
+.intro1 {
+    width: 5.3rem;
+    height: 0.22rem;
+    position: absolute;
+    top: 0.38rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    letter-spacing: -1px;
+    color: #010101;
+    opacity: 0.6;
+}
+.discount{
+    width: 5.3rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 0.7rem;
+    display: flex;
+}
+.discount-left{
+    width: 0.56rem;
+    height: 0.26rem;
+    line-height: 0.26rem;
+    text-align: center;
+    margin-right: 0.1rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    color: #f12961;
+}
+.discount>p{
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.notice{
+    width: 5.3rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 1rem;
+    display: flex;
+}
+.notice-left{
+    width: 0.56rem;
+    height: 0.26rem;
+    line-height: 0.26rem;
+    text-align: center;
+    margin-right: 0.1rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    color: #5fdc15;
+}
+.notice>p{
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.notice>i{
+    font-size: 0.2rem;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0rem;
+    right: 0.22rem;
+}
+.navBox{
+    width: 100%;
+    height: 0.39rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0.2rem;
+}
+.nav{
+    width: 4.4rem;
+    height: 0.39rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.order{
+    width: 0.95rem;
+    height: 0.39rem;
+    border-radius: 0.21rem;
+    background: #6fe728;
+}
+.order.active{
+    background: #ff296f;
+}
+.order>p{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #fff;
+    margin: 1.5px 11px;
+}
+.container{
+    width: 7.5rem;
+    height: 9.1rem;
+    background-color: #eeeeee;
+    padding-top: 0.24rem;
+    margin: 0 auto;
+}
+.content{
+    width: 7rem;
+    margin: 0 auto;
+}
+.left {
+    width: 1.22rem;
+    height: 8rem;
+    /*margin-left: 0.49rem;*/
+    float: left;
+}
+.list{
+    width: 1.22rem;
+    height: 0.44rem;
+    border: solid 0.04rem #6fe728;
+    border-radius: 0.31rem;
+    margin-bottom: 0.27rem;
+    box-sizing: border-box;
+}
+.list>p{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #6fe728;
+    margin: 0.02rem 0.32rem;
+}
+.list2{
+    width: 1.22rem;
+    height: 0.44rem;
+    border: solid 0.04rem #6fe728;
+    border-radius: 0.31rem;
+    box-sizing: border-box;
+    margin-bottom: 0.27rem;
+}
+.list2.active{
+    background-color: #6fe728;
+ }
+.list2>p.yanse{
+    color: #fff;
+}
+.list2>p{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #6fe728;
+    margin: 0.02rem 0.08rem;
+}
+.middle{
+    width: 5.28rem;
+    height: 8rem;
+    float: right;
+}
+.item{
+    width: 5.28rem;
+    height: 1.45rem;
+    background: #fff;
+    border-radius: 0.21rem;
+    margin-bottom: 0.18rem;
+    position: relative;
+}
+.itemImage{
+    width: 1.28rem;
+    height: 1.28rem;
+    border-radius: 0.21rem;
+    position: relative;
+}
+.itemImage>img{
+    width: 1.28rem;
+    height: 1.28rem;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.08rem;
+}
+.itemText{
+    width: 3.84rem;
+    height: 1.28rem;
+    float: right;
+    margin-top: 0.08rem;
+    position: absolute;
+    top: 0rem;
+    left: 1.46rem;
+ }
+.jia{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 50%;
+    background-color: #6fe728;
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.18rem;
+}
+.jia>i{
+    position: absolute;
+    right: 0.06rem;
+    bottom: 0.04rem;
+    font-size: 0.22rem;
+    color: #fff;
+ }
+.Text-title{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    color: #000000;
+}
+.work{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0.42rem;
+}
+.price{
+    font-family: SimSun;
+    font-size: 0.22rem;
+    color: #ff0000;
+    position: absolute;
+    top: 0.72rem;
+}
+.price2{
+    font-family: SimSun;
+    font-size: 0.18rem;
+    color: #ff0000;
+}
+.discount1{
+    height: 0.26rem;
+    position: absolute;
+    top: 1rem;
+    display: flex;
+}
+.discount1-left{
+    width: 0.56rem;
+    height: 0.26rem;
+    border: solid 1px #ff6992;
+    opacity: 0.7;
+    box-sizing: border-box;
+    font-family: SanFranciscoDisplay-Regular;
+    font-size: 0.14rem;
+    color: #ff296f;
+    opacity: 0.7;
+    margin-right: 0.1rem;
+}
+.discount1>p{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    color: #ff296f;
+    opacity: 0.7;
+}
+/*底部部分开始*/
+.footerBox{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:  0 auto;
+
+}
+.footer_icon{
+    width: 5rem;
+    height: 0.56rem;
+    margin-top: 0.23rem;
+    margin-left: 0.68rem;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.footer_icon>i{
+    font-size: 0.52rem;
+    position: absolute;
+    top: 0;
+    opacity: 0.6;
+}
+.footer_icon>p{
+    font-family: SimSun;
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.6;
+    padding-left: 1.27rem;
+}
+.footer-settle {
+    width: 1.06rem;
+    height: 0.45rem;
+    border-radius: 0.21rem;
+    background-color: #000000;
+    opacity: 0.6;
+    float: right;
+    margin-top: 0.27rem;
+    margin-right: 0.51rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.22rem;
+    color: #ffffff;
+    padding-top: 0.06rem;
+    padding-left: 0.19rem;
+    box-sizing: border-box;
+}
+p.qisong{
+    margin-top: 0.1rem;
+    font-family: SimSun;
+    font-size: 0.18rem;
+    color: #000000;
+    opacity: 0.6;
+}
+/*底部部分结束*/
